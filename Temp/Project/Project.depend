@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1666654182 source:e:\gx\abc\project\main.cpp
+1669080876 source:e:\gx\abc\project\main.cpp
 	<GL/gl.h>
 	<GL/glu.h>
 	<GL/glut.h>
@@ -7,7 +7,9 @@
 	<stdio.h>
 	<windows.h>
 	<math.h>
+	"BmpLoader.h"
 	<iostream>
+	<mmsystem.h>
 
 1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\gl.h
 	<windows.h>
@@ -901,4 +903,84 @@
 
 1526093416 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\math.h
 	<crtdefs.h>
+
+1666468265 source:e:\gx\abc\project\bmploader.cpp
+	"BmpLoader.h"
+	<stdio.h>
+	<iostream>
+
+1666468265 e:\gx\abc\project\bmploader.h
+	<windows.h>
+
+1667155403 source:e:\gx\abc\project\3dexample\camera.cpp
+	"vec.h"
+	<math.h>
+	"camera.h"
+
+1667155403 e:\gx\abc\project\3dexample\vec.h
+
+1667155403 e:\gx\abc\project\3dexample\camera.h
+	"vec.h"
+
+1667155403 source:e:\gx\abc\project\3dexample\vec.cpp
+	<math.h>
+	"vec.h"
+
+1667155402 source:e:\gx\abc\project\math3d.cpp
+	<math.h>
+	"math3d.h"
+
+1667155402 e:\gx\abc\project\math3d.h
+	<math.h>
+	<memory.h>
+
+1526093416 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\memory.h
+	<crtdefs.h>
+
+1667155402 source:e:\gx\abc\project\gltools.cpp
+	"gltools.h"
+	"math3d.h"
+	<stdio.h>
+	<assert.h>
+	"wglext.h"
+
+1667155402 e:\gx\abc\project\gltools.h
+	<windows.h>
+	<gl\gl.h>
+	<gl\glu.h>
+	<gl/freeglut.h>
+	<Carbon/Carbon.h>
+	"glee.h"
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<Glut/glut.h>
+	<math.h>
+
+1662389728 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1662389728 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\assert.h
+	<crtdefs.h>
+	<stdlib.h>
+
+1667155403 e:\gx\abc\project\wglext.h
+	<windows.h>
+
+1667157172 source:e:\gx\abc\project\3dexample\assets.cpp
+	"vec.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<GL/glut.h>
+	<vector>
+	"assets.h"
+	"../gltools.h"
+
+1667157455 e:\gx\abc\project\3dexample\assets.h
+	<gl/freeglut.h>
+	<vector>
 
